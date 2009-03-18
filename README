@@ -1,0 +1,7 @@
+How to write the HTML so the JS can validate it
+
+<span id="field_nameErr" class="error">Error Message</span> // Requierd
+	<label for="field_name">Label</label> // Optional
+	<input type="text" id="field_name" name="field_name"/> // Required
+
+The validation happens by the ID in the INPUT tag. Also the validation will happen if only the element has an error message with an ID equals to ID+'Err'.
